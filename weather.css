@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: aliceblue;
+}
+
+header h1 {
+    color: white;
+    background-color: darkslategray;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    height: 87vh;
+    display: flex;
+    background-color: #01161E;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather {
+    display: inline-flex;
+}
+
+.weather .temp {
+    font-size: 15px;
+    padding: 5px 5px;
+    align-self: center;
+}
+
+.weather .time-location {
+    padding: 5px 5px;
+}
+
+.weather .time-location p {
+    font-size: 40px;
+}
+
+.weather .time-location span {
+    font-size: 12px;
+}
+
+.weather .weather-condition {
+    padding: 5px 10px;
+    align-self: center;
+}
+
+.weather .weather-condition p {
+    padding-bottom: 7px;
+}
+
+.weather .weather-condition p img {
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+}
+
+.weather .weather-condition span {
+    font-size: 12px;
+}
+
+nav {
+    background-color: darkslategrey;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .search-location {
+    width: 400px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: darkslategray;
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+
+nav button {
+    width: 100px;
+    height: 30px;
+    background-color: aqua;
+    padding: 5px 5px;
+    color: black;
+    border: 0;
+}
